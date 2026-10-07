@@ -1,0 +1,12 @@
+{
+  "epochs": 1,
+  "lr": 1e-05,
+  "person_weight": 4.0,
+  "apparatus_weight": 1.0,
+  "batch_size": 1,
+  "seed": 42,
+  "shared_trainable": true,
+  "initial_weights": "<local-path>/dual_head_best.pt",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "evaluation": "evaluate_dual.py, same test splits and thresholds before/after"
+}
